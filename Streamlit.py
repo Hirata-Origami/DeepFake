@@ -2,22 +2,10 @@ import streamlit as st
 import os
 import numpy as np
 import pickle
-
-try:
-    import cv2
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python"])
-    import cv2
-
-try:
-    import tensorflow as tf
-    from tensorflow.keras.applications import Xception
-    from tensorflow.keras.models import load_model
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "tensorflow"])
-    import tensorflow as tf
-    from tensorflow.keras.applications import Xception
-    from tensorflow.keras.models import load_model
+import cv2
+import tensorflow as tf
+from tensorflow.keras.applications import Xception
+from tensorflow.keras.models import load_model
 
 # Initialize Streamlit app
 def main():
