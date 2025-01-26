@@ -98,6 +98,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 For any inquiries, feel free to reach out:
 - Author: Bharath Pranav
-- Email: bharathpranav@example.com
+- Email: bharathpranav91@gmail.com
 - Live Demo: [Streamlit App](https://bharathpranav.streamlit.app/)
 
