@@ -1,4 +1,12 @@
-streamlit
+streamlit>=1.28
+torch>=2.0
+torchvision
+transformers>=4.37
+timm>=0.9
+facenet-pytorch
 opencv-python-headless
-tensorflow
+scikit-learn
+pandas
 numpy
+pillow
+scipy
