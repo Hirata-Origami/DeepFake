@@ -111,21 +111,6 @@ pillow
 scipy
 ```
 
----
-
-## 🗒️ Training (Reproducibility)
-
-The full training pipeline is documented in `New/deepfake (2).ipynb` (Kaggle 2× T4, ~3.5 h).  
-Key settings:
-
-- **Face extraction:** MTCNN, 12–16 frames per video
-- **Splits:** identity-group based (no person shared between train / val / test)
-- **Data:** FF++ c23 (1 000 real, 5 methods × 1 000 fake) + Celeb-DF v2 (890 real, 5 639 fake)
-- **CLIP tuning:** LayerNorm-only (ClipLN) and rank-1 SVD adapter (ClipSVD / Effort-style)
-- **Loss:** BCE with label smoothing (0.025) + optional uniformity/alignment regularisation
-
----
-
 ## 📄 License
 
 MIT — see [LICENSE](LICENSE).
